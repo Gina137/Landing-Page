@@ -1,0 +1,264 @@
+.container
+    {
+        display:grid;
+        margin: auto;
+        width: 100%; 
+        height:100%;
+        grid-template-columns: 3em;
+        grid-template-rows:39em  1fr 43.3em 1fr  25em 5em;
+        grid-template-areas:
+        "hd hd"
+        "sc1 sc1"
+        "sc2 sc2"
+        "sc3 sc3"
+        "sc4 sc4"
+        "ft ft"
+        ;
+    }
+    #header
+    {
+        grid-area: hd;  
+        background-image: url("../images/trattoria1.jpg" );
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    header img
+    {
+        padding-left: 1em;
+        margin-top: 1em;
+       width:7em; 
+    }
+    #main
+    {
+        
+        background-image: url("../images/main.jpg"); /*34an el css b2a gwa folder css f keda el image bara f el ../ by2olo ll css e5rog bara 5atwa 34an tla2e el images*/
+        opacity: 0.9;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 7em;
+        align-items: center;
+        justify-content: center;
+    }
+    ul
+    {
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.3em;
+    }
+    li
+    {
+        display: inline;
+        float: left;
+        padding-left: 2em;
+      
+    }
+    .navbar
+    {
+        border:0.3rem solid rgb(78, 83, 4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3.5em;
+        width: 9em;
+        text-align: center;
+        background-color: #e5b897;
+        color: white;
+        font-size: 1em;
+        border-radius: 50%;
+        padding: 1em;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar:hover
+    {
+        box-shadow: 1em 1em 1em 0.1em  #b9a79a;
+    }
+    #section1
+    {
+        grid-area: sc1;
+        line-height:0.1em;
+        font-size: 1.3em;
+        color: rgb(95, 21, 21);
+        background-color: rgb(247, 242, 195); 
+        border: 0.2em solid rgb(95, 21, 21);
+        
+    }
+    .uptitle
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+    }
+    .upsubtitle
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+    }
+    .food
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .items
+    {
+        display:block;
+        justify-content:left;
+        align-items:center;
+        padding-left: 3em;
+        line-height: 1em;;
+    }
+    .bottom
+    {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 1em;
+       height: 3em;
+    }
+    .hide
+    {
+        display: none;
+    }
+    .bottom button
+    {
+      background-color: rgb(250, 211, 220);
+      color: rgb(136, 25, 58);
+    }
+    #section2
+    { 
+        grid-area: sc2;
+        border: 0.3em solid rgb(31, 2, 2);
+        background-color: rgb(245, 239, 212);
+        color: rgb(136, 25, 58);
+        font-size: 1.8em;
+    }
+    #section2 img
+    {
+        width: 10em;
+        float: right;
+        padding-top: 1em;
+    }
+    #section3
+    {
+        grid-area:sc3;
+        background-image: url("../images/home.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .formtitle
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.7em;
+        font-family:monospace;
+       color: rgb(204, 238, 11)
+    }
+    form p
+    {
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       line-height: 2.3em;
+       font-size: 1.7em;
+       color: rgb(197, 231, 0);
+    }
+    #postform
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4em;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        margin-top: 9em;
+    }
+    #section4
+    {
+        grid-area: sc4;
+        background-color: rgb(70, 68, 62);
+        border-top:0.3em solid rgb(41, 38, 38);
+        border-bottom:0.3em solid rgb(41, 38, 38);
+    }
+    .opinion_info
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(243, 234, 105);
+    }
+    .guests_info
+    {
+
+        font-size: 2em;
+        padding-left: 0.3em;
+    }
+    textarea
+    {
+        width: 15em;
+        height: 4em;
+    }
+    #post_textarea
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(204, 89, 108);
+        font-size: 2em;
+    }
+    #footer
+    {
+        grid-area: ft;
+        background-color: #660000;
+    }
+    #footer p
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:aliceblue;
+    }
+    .social
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    .social i{
+        margin-left: 1.8em;
+        margin-top: 0.3em;
+
+    }
+    .fa-instagram
+    {
+        color: rgb(240, 0, 0);
+        font-size: 1.2em;
+    }
+    .fa-facebook
+    {
+        color: white;
+        background-color: blue;
+        border-radius: 10%;
+        width: 1em;
+        height: 1em;
+        text-align: center;
+       
+    }
+    .fa-twitter
+    {
+        color: rgb(58, 161, 245);
+        font-size: 1.2em;
+    }

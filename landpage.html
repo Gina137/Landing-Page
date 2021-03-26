@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Trattoria</title>
+    <script src="https://use.fontawesome.com/5b67479d8f.js"></script>
+    <link rel="stylesheet" href="css/trattLP.css">
+</head>
+
+<body>
+    <!-- parent grid -->
+    <!-- first div child from parent grid -->
+    <div class="container">
+        <div id="header">
+        </div>
+        <!-- second div child from parent grid -->
+        <div  id="main">
+        <!-- unordered list for smooth scrolling navigation -->
+         <ul id="navigationMenu">         
+         </ul>
+        </div>
+        <!-- third div child from parent grid -->
+        <div  id="section1" class="section_container" data-name="Go To Menu">
+            <strong>
+             <div class="up">
+                 <div class="uptitle"><h1><strong>Menu</strong></h1></div>
+                 <br>
+                 <div class="upsubtitle"><h5><em>Italian Cuisine's Treasures</em></h5> </div>
+             </div>
+             <div class="between">
+                     <h3 class="food"> <strong><ins>Zuppe Soup</ins></strong></h3>
+                 <div class="items">
+                     <p> Zuppa di Pomodoro Tomato soup with basil : 49.0</p>
+                     <p>Vellutata di Funghi Creamy roasted mushroom soup : 52.90</p>
+                     <p>Zuppa di minestrone Vegetables soup : 49.90</p>
+                     <p>Zuppa di Mostarda Whole grain mustard soup : 59.90</p>
+                 </div>
+                <div class="items">
+                    <h3 class="food"> <strong><ins>Insalata Salads</ins></strong></h3>
+                    <p >Caprese Millefoglie Tomato, Mozzarella & basil with pesto dressing : 69.90</p>
+                    <p>Insalata di Mele, Gorgonzola e Noci Salad with blue cheese, apple, walnut & honey dressing  : 74.90</p>
+                    <p>Melanzane alla Parmigiana Layers of baked eggplant, mozzarella, tomato & béchamel sauce.  : 69.90</p>
+                    <p>Mozzarelle in carrozza Fried bread tost with eggs &anchovies  : 117.90</p>
+                    <p> Insalata di Pollo e Arance Salad with grilled chicken, orange pieces, cumin, parmesan cheese & citrus dressing: 119.90</p>
+                </div>
+                <div class=" items ">
+                    <h3 class="food"> <strong><ins>Pasta</ins></strong></h3>
+                    <p>Spaghetti al Pomodoro Pasta with fresh tomatoes, basil & spicy peperoncino if requested. : 69.90</p>
+                    <p>Ravioli con Ricotta e Spinaci Ravioli with spinach, ricotta & herb sauce. : 79.90</p>
+                    <p>Spaghetti alla Puttanesca Pasta with anchovies, capres, olives and tomato sauce : 109.90</p>
+                    <p>Spaghetti al Pesto Ligure Pasta with basil, parmigiano reggiano & pine nuts : 119.90</p>
+                    <p>Fettucine Salmone Affumicato Pasta with cream sauce & smoked salmon : 139.90</p>
+                </div>
+                <div class=" items hide">
+                    <h3 class="food"> <strong><ins>Risotti</ins></strong></h3>
+                    <p>Risotto alla Primavera Risotto with mushroom, peas & tomatoes : 69.90</p>
+                    <p>Risotto alla Milanese Risotto with Saffron : 149.900</p>
+                    <p>Risotto ai Quattro Formaggi Risotto with blue cheese, gouda cheese emmental cheese,parmesan cheese & cream : 145.90</p>
+                    <p>Risotto all’Anatra Risotto with duck confit, carrotts & mushroom : 159.90</p>
+                </div>
+            </strong>
+             </div>
+             <div class="bottom">
+                 <button>Show More</button>
+             </div>
+        </div>
+        <!-- chef information section -->
+        <div id="section2" class="section_container" data-name="Meet Our Chef">
+            <img src="images/chef.jpg">
+            <h1 ><strong>Meet our new head Chef</strong></h1>
+            <h3><em><ins>Augusto Rosati</ins> </em></h3>
+            <p>His expertise in traditional Italian as well as international cuisine will bring authenticity and creativity to the new menu, providing an unforgettable experience to our guests.</p>
+        </div>
+        <!-- fourth div child from parent grid -->
+        <div id="section3" class="section_container"data-name="Go To Reservation form ">
+              <!-- recervation form -->
+            <form><strong>
+                <h1 class="formtitle"><ins><em>form</em></ins></h1>
+                <p> First Name <input type="text"></p>
+                <p> Last Name <input type="text"></p>
+                <p> E-mail adress <input type="email"></p>
+                <p> Phone Number <input type="password"> </p>
+                <p> Number of Guests
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </p>
+                <p> Day<input type="date"></p>
+                <p> Time <input type="time"></p>
+                <p id="submit_button"> <input type="submit"></p>
+            </strong>
+            </form>
+         </div>
+        <div id="section4" class="section_container"data-name="Tell Us about Your Opinion ">
+            <h2 class="opinion_info">Help us to serve you better</h2>
+            <h3 class="opinion_info">please share with us your thoughts and experiences</h3>
+            <p class="guests_info"> <strong>E-mail</strong> <input type="email">  </p>  
+            <p class="guests_info"> <strong>Phone number</strong> <input type="tel">  </p> 
+            <textarea class="guests_info"></textarea>
+            <button id="textarea_button"><strong>Send</strong></button>
+        </div>
+        <div  id="footer">
+           <div class="social">
+            <a href="https://www.google.com/search?q=facebook+login&oq=facebook+login&aqs=chrome..69i57j0i271j69i64j69i60l4.3563j0j7&sourceid=chrome&ie=UTF-8"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.google.com/search?q=instagram&oq=instagram+&aqs=chrome..69i57j69i59j0i433l3j0i131i433j0i433j69i60.3866j0j7&sourceid=chrome&ie=UTF-8"> <i class="fa fa-instagram"></i></a>
+            <a href="https://www.google.com/search?q=twitter&oq=twii&aqs=chrome.1.69i57j35i39j46i433j0i131i433j0i433j0i131i433j0i433j0i131i433j46i131i433j46i433.1835j0j7&sourceid=chrome&ie=UTF-8"><i class="fa fa-twitter"></i></a>
+           </div>
+           <p>© 2021 - La Trattoria All Right Reserved </p>
+        </div>
+    </div>
+<script src="js/trattoria.js"></script>
+</body>
+</html>
